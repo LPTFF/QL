@@ -3,6 +3,8 @@
 """
 new Env('农好优');
 邀请码 131242
+
+脚本来源：https://github.com/kxs2018/xiaoym/blob/main/k_nhy.py
 """
 import base64
 import zlib
