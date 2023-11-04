@@ -8,7 +8,7 @@ import base64
 import zlib
 
 """推送通知开关"""
-notify = 0
+notify = 1
 """1为开，0为关"""
 
 """提现标准设置"""
