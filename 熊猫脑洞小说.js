@@ -20,7 +20,7 @@
 const $ = new Env("熊猫脑洞小说");
 //-------------------- 一般不动变量区域 -------------------------------------
 const notify = $.isNode() ? require("./sendNotify") : "";
-const Notify = 0;		      //通知设置      0关闭  1开启
+const Notify = 1;		      //通知设置      0关闭  1开启
 let debug = 0;                //Debug调试     0关闭  1开启
 let envSplitor = ["@", "\n"]; //多账号分隔符
 let ck = msg = '';            //let ck,msg

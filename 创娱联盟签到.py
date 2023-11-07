@@ -10,7 +10,7 @@ try:
     from config import cylm_config
 except:
     cylm_config = {
-        'notify': 0,  # 推送通知开关，1为开，0为关
+        'notify': 1,  # 推送通知开关，1为开，0为关
         'max_workers': 5,  # 设置线程数，设置为5，即最多有5个账号在跑任务
         'total_signin': 3  # 平台签到次数，由于常常变动，手动更改
     }
